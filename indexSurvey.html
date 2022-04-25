@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="C:\Users\Owner\Downloads\Generation-USA\Generation-Sandbox\BSM-GroupRepoChallenge\indexHome.html">Home</a>
+        <a href="C:\Users\Owner\Downloads\Generation-USA\Generation-Sandbox\BSM-GroupRepoChallenge\indexSurvey.html">Survey</a>
+        <a href="C:\Users\Owner\Downloads\Generation-USA\Generation-Sandbox\BSM-GroupRepoChallenge\indexResources.html">Resources</a>
+        <a href="C:\Users\Owner\Downloads\Generation-USA\Generation-Sandbox\BSM-GroupRepoChallenge\indexAdditionalBSMs.html">Additional BSM's</a>
+    </nav>
+    <br>
+
+    <h1>Survey</h1>
+
+    <p>Now that you've learned all about the differences between a Fixed Mindset and a Growth Mindset, let's see which one you're working with!</p>
+    
+    <form action="/survey_page.php" method="get">
+        <label for="improvement">What's one mistake you made in class or at work today? What could you do to improve next time?</label>
+        <input type="text" id="improvement" name="improvement" required>
+        <br>
+
+        <label for="effort">How much effort did you put into learning today?</label>
+        <input type="range" id="effort" required>
+        <br>
+
+        <label for="persistence">Rate your persistence level on a scale of 1-10.</label>
+        <input type="number" id="persistence" required>
+        <br>
+
+        <p>Do you think you have a growth mindset?</p>
+        <input type="checkbox" id="yes" required>
+        <label for="yes">Yes</label>
+
+        <input type="checkbox" id="no" required>
+        <label for="no">No</label>
+        <br>
+
+        <p>Which of the following is true?</p>
+
+        <input type="radio" id="bornwith" required name="truefalse" value="bornwith">
+        <label for="bornwith">You are born with a certain amount of intelligence and talent, and can’t really do much to change it.</label><br>
+
+        <input type="radio" id="mix" required name="mix" value="mix">
+        <label for="">You can learn new things, but you can’t really change your basic intelligence and talent.</label><br>
+
+        <input type="radio" id="growth" required name="growth" value="growth">
+        <label for="">No matter who you are, you can significantly change your level of intelligence and talent.</label>
+        <br>
+
+        <input type="submit">
+
+
+    </form>
+
+
+</body>
+</html>
